@@ -1,0 +1,14 @@
+D:\杨淞媛\wpf practice 1\bin\Debug\wpf practice 1.exe
+D:\杨淞媛\wpf practice 1\bin\Debug\wpf practice 1.pdb
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.csproj.AssemblyReference.cache
+D:\杨淞媛\wpf practice 1\obj\Debug\MainWindow.g.cs
+D:\杨淞媛\wpf practice 1\obj\Debug\App.g.cs
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1_MarkupCompile.cache
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1_MarkupCompile.lref
+D:\杨淞媛\wpf practice 1\obj\Debug\MainWindow.baml
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.g.resources
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf_practice_1.Properties.Resources.resources
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.csproj.GenerateResource.cache
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.csproj.CoreCompileInputs.cache
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.exe
+D:\杨淞媛\wpf practice 1\obj\Debug\wpf practice 1.pdb

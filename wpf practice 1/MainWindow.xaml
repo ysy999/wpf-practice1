@@ -1,0 +1,98 @@
+﻿<Window x:Class="wpf_practice_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_practice_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#A3BBDB"   >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="520"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border  Background="#1B2A5C"  Grid.ColumnSpan="3">
+           
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="0" Background="White" CornerRadius="50"  Margin="10,10,10,10">
+            
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="1" Background="#A3BBDB"  >
+            <TabControl Background="#A3BBDB" TabStripPlacement="Left" >
+
+                <TabControl.ItemContainerStyle>
+                    <Style TargetType="{x:Type TabItem}">
+                        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                        <Setter Property="VerticalAlignment" Value="Stretch"/>
+                        <Setter Property="Background" Value="#A3BBDB"/>
+                        <Setter Property="BorderBrush" Value="Gray"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#1B2A5C"/>
+                                <Setter Property="BorderBrush" Value="Gray"/>
+                                <Setter Property="Foreground" Value="#1B2A5C"/>
+
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TabControl.ItemContainerStyle>
+
+                <TabControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="1" />
+                    </ItemsPanelTemplate>
+                </TabControl.ItemsPanel>
+
+                <TabItem Header="Tab 1"   >
+                    
+                </TabItem>
+                <TabItem Header="Tab 2"  >
+
+                </TabItem>
+                <TabItem Header="Tab 3"  >
+
+                </TabItem>
+                <TabItem Header="Tab 4" >
+
+                </TabItem>
+                <TabItem Header="Tab 5" >
+
+                </TabItem>
+                <TabItem Header="Tab 6" >
+
+                </TabItem>
+                <TabItem Header="Tab 7" >
+
+                </TabItem>
+                <TabItem Header="Tab 8" >
+
+                </TabItem>
+                <TabItem Header="Tab 9" >
+
+                </TabItem>
+                <TabItem Header="Tab 10" >
+
+                </TabItem>
+                <TabItem Header="Tab 11" >
+
+                </TabItem>
+                <TabItem Header="Tab 12" >
+
+                </TabItem>
+
+
+            </TabControl>
+        </Border>
+
+        
+
+    </Grid>
+</Window>
