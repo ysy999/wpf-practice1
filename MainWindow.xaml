@@ -8,21 +8,42 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#A3BBDB"   >
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="79*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="520"/>
-            <ColumnDefinition Width="50"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="52*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="23*"/>
         </Grid.ColumnDefinitions>
 
         <Border  Background="#1B2A5C"  Grid.ColumnSpan="3">
-           
+            <Grid>
+
+                <Button Background="Transparent" Margin="714,0,46,0" RenderTransformOrigin="0.5,0.5">
+                    <Image Source="保存.png" Width="40"    />
+                </Button>
+                <Button Background="Transparent" Margin="499,5,261,-5">
+                    <Image Source="闪电.png" Width="46"   />
+                </Button>
+                <Button Background="Transparent" Margin="342,5,418,-5" >
+                    <Image Source="加载.png"    />
+                </Button>
+                <Button Background="Transparent" Margin="138,5,621,-5">
+                    <Image Source="暂停.png"  />
+                </Button>
+                <Button Background="Transparent" Margin="210,5,550,-5">
+                    <Image Source="A.png"   />
+                </Button>
+                <Button Background="Transparent" Margin="43,5,712,-5">
+                    <Image Source="电脑,显示屏,显示器.png" />
+                </Button>
+            </Grid>
+
         </Border>
 
         <Border Grid.Row="1" Grid.Column="0" Background="White" CornerRadius="50"  Margin="10,10,10,10">
-            
+
         </Border>
 
         <Border Grid.Row="1" Grid.Column="1" Background="#A3BBDB"  >
@@ -52,7 +73,7 @@
                 </TabControl.ItemsPanel>
 
                 <TabItem Header="Tab 1"   >
-                    
+
                 </TabItem>
                 <TabItem Header="Tab 2"  >
 
@@ -92,7 +113,7 @@
             </TabControl>
         </Border>
 
-        
+
 
     </Grid>
 </Window>
