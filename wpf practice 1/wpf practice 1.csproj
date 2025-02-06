@@ -85,5 +85,13 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="A.png" />
+    <Resource Include="保存.png" />
+    <Resource Include="加载.png" />
+    <Resource Include="暂停.png" />
+    <Resource Include="电脑,显示屏,显示器.png" />
+    <Resource Include="闪电.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
